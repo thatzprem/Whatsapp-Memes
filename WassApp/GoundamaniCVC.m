@@ -6,31 +6,21 @@
 //  Copyright (c) 2015 freakApps. All rights reserved.
 //
 
-#import "GoundamaniImagesCVC.h"
+#import "GoundamaniCVC.h"
 
-@interface GoundamaniImagesCVC ()
+@interface GoundamaniCVC ()
 
 @end
 
-@implementation GoundamaniImagesCVC
+@implementation GoundamaniCVC
 
 - (void)viewDidLoad {
+    
+    self.screenMode = SCREEN_MODE_GOUNDAMANI;
+
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    PFQuery *query = [PFQuery queryWithClassName:@"GameScore"];
-    [query whereKey:@"objectType" equalTo:[NSNumber numberWithInt:2]];
-    [query whereKey:@"isReviewed" equalTo:[NSNumber numberWithBool:YES]];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (!error) {
-            // The find succeeded. The first 100 objects are available in objects
-            self.objectsArray = objects;
-            [self.collectionView reloadData];
-        } else {
-            // Log details of the failure
-            NSLog(@"Error: %@ %@", error, [error userInfo]);
-        }
-    }];
+    self.title = @"Goundamani";
 
 }
 

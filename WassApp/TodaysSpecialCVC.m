@@ -12,7 +12,7 @@
 
 - (void)viewDidLoad {
     
-    self.screenMode = SCREEN_MODE_OTHERS;
+    self.screenMode = SCREEN_MODE_TODAYS_POPULAR;
     
     [super viewDidLoad];
     // Do any additional setup after loading the view.

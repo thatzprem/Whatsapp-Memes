@@ -14,6 +14,6 @@
 #define kParseTableTitle @"titleName"
 #define kParseTableReview @"isReviewed"
 
-#define kiTunesAppID                    968970609
+#define kiTunesAppID                    972967557 //For Tamil memes for whatsapp
 
 #endif

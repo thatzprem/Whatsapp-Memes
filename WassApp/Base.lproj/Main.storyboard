@@ -33,7 +33,7 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.80784313730000001" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="CF7-Xg-QH7" firstAttribute="leading" secondItem="49o-rh-Hyn" secondAttribute="leadingMargin" constant="11" id="5pX-D9-xBy"/>
                                     <constraint firstItem="CF7-Xg-QH7" firstAttribute="centerY" secondItem="49o-rh-Hyn" secondAttribute="centerY" id="Pex-Pb-dti"/>
@@ -70,8 +70,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="fio-sh-VvT" kind="relationship" relationship="viewControllers" id="naT-Kj-Aq2"/>
-                        <segue destination="Pt0-vN-RY5" kind="relationship" relationship="viewControllers" id="f1P-sv-LRc"/>
                         <segue destination="Vjc-LN-63e" kind="relationship" relationship="viewControllers" id="X3R-It-hyt"/>
+                        <segue destination="Pt0-vN-RY5" kind="relationship" relationship="viewControllers" id="f1P-sv-LRc"/>
                         <segue destination="Qo4-ei-woj" kind="relationship" relationship="viewControllers" id="Ip3-Yz-Hhh"/>
                     </connections>
                 </tabBarController>
@@ -126,7 +126,7 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.80784313730000001" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="rey-Ki-cui" firstAttribute="centerX" secondItem="nKx-iB-5Yl" secondAttribute="centerX" id="1VU-4E-h9C"/>
                                     <constraint firstItem="rey-Ki-cui" firstAttribute="leading" secondItem="nKx-iB-5Yl" secondAttribute="leadingMargin" constant="11" id="OIH-Pi-VQb"/>
@@ -198,7 +198,7 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.80784313730000001" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="Vk2-QU-5VQ" firstAttribute="leading" secondItem="rPq-Rm-7ea" secondAttribute="leadingMargin" constant="-8" id="TTn-RW-xbp"/>
                                     <constraint firstItem="Vk2-QU-5VQ" firstAttribute="top" secondItem="rPq-Rm-7ea" secondAttribute="topMargin" constant="-8" id="X1r-w4-L2m"/>
@@ -319,4 +319,5 @@
         <image name="NoImage" width="200" height="125"/>
         <image name="Points_Menu" width="34" height="34"/>
     </resources>
+    <color key="tintColor" red="0.0" green="0.50588235294117645" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
 </document>

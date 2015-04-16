@@ -68,7 +68,7 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)refreshButtonPressed {
 //    [self fetchNewData];
     UIActionSheet *popup = [[UIActionSheet alloc] initWithTitle:@"Help us get better!" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:
-                            @"Upload memes",
+                            @"Upload memes from your Gallery",
                             @"Leave us feedback",
                             @"Rate us on iTunes",
                             nil];
@@ -166,7 +166,7 @@ static NSString * const reuseIdentifier = @"Cell";
         dispatch_async(dispatch_get_main_queue(), ^{
             NSLog(@"Logging: %@",userImageFile.url);
             cell.displayImageView.imageURL = [NSURL URLWithString:userImageFile.url];
-            cell.backgroundColor = [UIColor yellowColor];
+//            cell.backgroundColor = [UIColor yellowColor];
         });
     }
     return cell;

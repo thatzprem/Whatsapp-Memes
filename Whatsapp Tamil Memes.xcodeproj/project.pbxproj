@@ -182,14 +182,14 @@
 			children = (
 				84904AD21ACC22AD00B1EB25 /* BaseCVC.h */,
 				84904AD31ACC22AD00B1EB25 /* BaseCVC.m */,
+				844CF38F1ADCF83000234E90 /* TodaysSpecialCVC.h */,
+				844CF3901ADCF83000234E90 /* TodaysSpecialCVC.m */,
 				84904ADC1ACC339400B1EB25 /* VadiveluCVC.h */,
 				84904ADD1ACC339400B1EB25 /* VadiveluCVC.m */,
 				84904ADF1ACC33A700B1EB25 /* GoundamaniCVC.h */,
 				84904AE01ACC33A700B1EB25 /* GoundamaniCVC.m */,
 				8469210B1AD566A10071521E /* OthersCVC.h */,
 				8469210C1AD566A10071521E /* OthersCVC.m */,
-				844CF38F1ADCF83000234E90 /* TodaysSpecialCVC.h */,
-				844CF3901ADCF83000234E90 /* TodaysSpecialCVC.m */,
 				84192DDA1AD1123E009147B3 /* SettingsVC.h */,
 				84192DDB1AD1123E009147B3 /* SettingsVC.m */,
 			);
@@ -419,7 +419,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -439,6 +440,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "036fc52c-a88a-47b3-8122-300e6d1ca4b4";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -460,7 +462,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -473,6 +476,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "036fc52c-a88a-47b3-8122-300e6d1ca4b4";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -482,16 +486,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Prem Kumar (6MT23LF92C)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prem Kumar (6MT23LF92C)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.6.5",
 				);
 				INFOPLIST_FILE = WassApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Whatsapp Memes";
-				PROVISIONING_PROFILE = "ab02f18c-7122-41d2-877f-537898e1df86";
+				PROVISIONING_PROFILE = "036fc52c-a88a-47b3-8122-300e6d1ca4b4";
 			};
 			name = Debug;
 		};
@@ -499,16 +504,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Prem Kumar (6MT23LF92C)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prem Kumar (6MT23LF92C)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Prem Kumar (MQ5WDZ5WWU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.6.5",
 				);
 				INFOPLIST_FILE = WassApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Whatsapp Memes";
-				PROVISIONING_PROFILE = "ab02f18c-7122-41d2-877f-537898e1df86";
+				PROVISIONING_PROFILE = "036fc52c-a88a-47b3-8122-300e6d1ca4b4";
 			};
 			name = Release;
 		};
